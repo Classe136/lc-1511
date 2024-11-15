@@ -63,7 +63,7 @@ const studentsVote = [
 
 */
 /*
-todo FOREACH
+todo FOREACH (non ha valore di ritorno)
 */
 const students = [
   { firstName: "Mario", lastName: "Rossi", id: 1 },
@@ -86,12 +86,18 @@ students.forEach((element, index) => {
 
 // console.log(studentsName);
 // console.log(studentsObj);
-
+/*
+todo MAP (ritorna un array della stessa lunghezza)
+*/
 const nomeStudenti = students.map(
   (element) => element.firstName + " " + element.lastName
 );
 
 //console.log(nomeStudenti);
+
+/*
+todo FILTER (ritorna un array della con gli elementi che passano il test - per ogni elemnto deve tornare true o false)
+*/
 const numbers = [10, 40, 30, 21, 7, 9];
 
 //ritorna true o false
